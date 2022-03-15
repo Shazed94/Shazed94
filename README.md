@@ -5,7 +5,7 @@
 ### Connect with me:
 
 [<img  width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"/>](https://www.facebook.com/shazed.rafi)
-&nbsp; &nbsp;
+&nbsp; 
 [![website](./img/linkedin-dark.svg)](https://www.linkedin.com/in/md-shazed-ashraf-4835171b4/#gh-dark-mode-only)
 [![website](./img/linkedin-light.svg)](https://www.linkedin.com/in/md-shazed-ashraf-4835171b4/#gh-light-mode-only)
 
