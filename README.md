@@ -29,5 +29,6 @@
 <img align="left" alt="GitHub" width="28px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="padding-right:10px;" />
 <img align="left" alt="intellij idea" width="28px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Terminal" width="28px" src="./img/terminal-light.svg" />
-![firebase](https://user-images.githubusercontent.com/85030852/161419824-486dc166-a214-4883-b87a-28c4aba879b4.png)
+<img align="left" alt="Terminal" width="28px" src="https://user-images.githubusercontent.com/85030852/161419824-486dc166-a214-4883-b87a-28c4aba879b4.png)" />
+![firebase]
 
