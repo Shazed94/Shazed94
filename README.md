@@ -29,6 +29,7 @@
 <img align="left" alt="intellij idea" width="28px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Terminal" width="28px" src="./img/terminal-light.svg" />
 
+
 ### My GitHub Stats
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=Shazed94&show_icons=true&locale=en&theme=dark" alt="Shazed94" width="49%" height="200px" />
