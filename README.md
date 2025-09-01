@@ -29,5 +29,12 @@
 <img align="left" alt="intellij idea" width="28px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" style="padding-right:10px;" />
 <img align="left" alt="Terminal" width="28px" src="./img/terminal-light.svg" />
 
-
+### My GitHub Stats
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Shazed94&show_icons=true&locale=en&theme=dark" alt="Shazed94" width="49%" height="200px" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Shazed94&show_icons=true&locale=en&layout=compact&theme=dark" alt="Shazed94" width="49%" height="200px" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shazed94&theme=dark" alt="Shazed94" width="70%" />
+</p>
 
