@@ -11,22 +11,16 @@
 
 ## 👨‍💻 About Me
 
-<table style="border:none">
-  <tr>
-    <td width="60%" valign="top">
+<img align="right" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2dwajhxbXA3MWk1cWdnc3MxdXY4azE2OG84djl0NTc3N2w2Mjh4ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xaO6TmgQmKEQ4516sE/giphy.gif" width="200" style="border-radius:12px;" />
 
-- 💻 Passionate **Programmer & Web Developer**  
-- 🌱 Exploring **full-stack development, modern web frameworks, and scalable applications**  
-- 🚀 Love building **real-world projects**  
-- 🧠 Curious • Consistent • Creative  
+- 💻 Passionate **Programmer & Web Developer**
+- 🌱 Exploring **full-stack development, modern web frameworks, and scalable applications**
+- 🚀 Love building **real-world projects**
+- ⚡ Building **fast, responsive apps** with React, Next.js, and Tailwind CSS
+- ☁️ Diving deep into **cloud technologies** like AWS, Docker, and CI/CD pipelines
+- 🧠 Curious • Consistent • Creative
+<br/>
 
-    </td>
-    <td width="40%" valign="top" align="center">
-      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2dwajhxbXA3MWk1cWdnc3MxdXY4azE2OG84djl0NTc3N2w2Mjh4ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xaO6TmgQmKEQ4516sE/giphy.gif" width="200" style="border-radius:12px;" />
-    </td>
-  </tr>
-</table>
-  
 ---
 
 ## 🌐 Connect With Me
