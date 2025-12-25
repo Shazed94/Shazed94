@@ -10,11 +10,23 @@
 ---
 
 ## 👨‍💻 About Me
-- 💻 Passionate **Programmer & Web Developer**
-- 🌱  Exploring **full-stack development, modern web frameworks, and scalable applications**  
-- 🚀 Love building **real-world projects**
+
+<table style="border:none">
+  <tr>
+    <td width="60%" valign="top">
+
+- 💻 Passionate **Programmer & Web Developer**  
+- 🌱 Exploring **full-stack development, modern web frameworks, and scalable applications**  
+- 🚀 Love building **real-world projects**  
 - 🧠 Curious • Consistent • Creative  
 
+    </td>
+    <td width="40%" valign="top" align="center">
+      <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm5wbnIwNGsxN3ExanB0MmptdXJvb3hmaDNzczNucmFvOWU4ZDRyYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EZr27ZbJwmjE9PGyLN/giphy.gif" width="200" style="border-radius:12px;" />
+    </td>
+  </tr>
+</table>
+  
 ---
 
 ## 🌐 Connect With Me
