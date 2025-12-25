@@ -1,7 +1,11 @@
 <!-- ===================== ANIMATED BANNER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:7A00FF&height=260&section=header&text=Shazed%20Ashraf%20Rafi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:7A00FF&height=260&text=Hi%20👋%20I%27m%20Shazed&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20passionate%20developer%20from%20Bangladesh&descAlignY=58&descAlign=70&descItalic=true" />
 </p>
+
+<!-- <p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/800px-Flag_of_Bangladesh.svg.png" width="20" alt="Bangladesh Flag" />
+</p> -->
 
 <h3 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=700&lines=Programmer+%7C+Developer;React+%7C+JavaScript+%7C+MERN;Building+Modern+Web+Apps;Always+Learning+New+Things" />
@@ -49,8 +53,7 @@
 
 
 ---
-
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" height="400px" style="object-fit: cover"/>
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" height="400px" style="object-fit: cover"/>
 
 <p align="center">
   💙 Thanks for visiting my profile — let’s build something awesome!
