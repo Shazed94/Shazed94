@@ -4,14 +4,14 @@
 </p>
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=700&lines=Programmer+%7C+Developer;React+%7C+JavaScript+%7C+C%2FC%2B%2B;Building+Modern+Web+Apps;Always+Learning+New+Things" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&width=700&lines=Programmer+%7C+Developer;React+%7C+JavaScript+%7C+MERN;Building+Modern+Web+Apps;Always+Learning+New+Things" />
 </h3>
 
 ---
 
 ## 👨‍💻 About Me
 - 💻 Passionate **Programmer & Web Developer**
-- 🌱 Currently learning **Advanced Web & Backend Development**
+- 🌱  Exploring **full-stack development, modern web frameworks, and scalable applications**  
 - 🚀 Love building **real-world projects**
 - 🧠 Curious • Consistent • Creative  
 
@@ -19,6 +19,7 @@
 
 ## 🌐 Connect With Me
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/shazed.rafi) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/shazed_rafi/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/shazed94/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ashraf.shazed@gmail.com) 
+ <img src="https://komarev.com/ghpvc/?username=Shazed94&label=Profile+Views&color=00F7FF&style=flat-square"/>
 
 ---
 
@@ -28,43 +29,22 @@
 ---
 
 ## 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Shazed94&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Shazed94&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shazed94&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
----
-
-## 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shazed94&theme=tokyonight&no-frame=true&row=1&column=7"/>
-</p>
+![](https://github-readme-stats.vercel.app/api?username=Shazed94&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Shazed94&theme=radical&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shazed94&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ---
 
 ## 🐍 Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/output/github-contribution-grid-snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
 </p>
+
 
 ---
 
-## 👀 Profile Views
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Shazed94&label=Profile+Views&color=00F7FF&style=flat-square"/>
-</p>
-
----
-
-## 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shazed94&theme=tokyonight&no-frame=true&row=1&column=7" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="120"/>
-</p>
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" height="400px" style="object-fit: cover"/>
 
 <p align="center">
   💙 Thanks for visiting my profile — let’s build something awesome!
