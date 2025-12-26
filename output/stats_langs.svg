@@ -43,11 +43,11 @@ h2 {
   line-height: 24px;
   font-size: 16px;
   font-weight: 600;
-  color: #006AFF;
+  color: #f72585;
 }
 
 #gh-dark-mode-only:target h2 {
-  color: #006AFF;
+  color: #ff006e;
 }
 
 ul {
@@ -125,19 +125,19 @@ li {
 .lang {
   font-weight: 600;
   margin-right: 4px;
-  color: #000000; 
+  color: #1a1a2e; 
 }
 
 #gh-dark-mode-only:target .lang {
-  color: #c9d1d9; 
+  color: #e0e0e0; 
 }
 
 .percent {
-  color: rgb(88, 96, 105);
+  color: #586069;
 }
 
 #gh-dark-mode-only:target .percent {
-  color: #8b949e;
+  color: #a8b2d1;
 }
 
 div.ellipsis {
@@ -177,16 +177,16 @@ div.ellipsis {
       <h2>Languages Used (By File Size)</h2>
       <div>
         <span class="progress">
-          <span class="progress-item" style="--final-width: 59.10580447541665%; --color: #f1e05a; --delay: 0.85s;"></span>
-          <span class="progress-item" style="--final-width: 21.21155789324824%; --color: #41b883; --delay: 1.08s;"></span>
-          <span class="progress-item" style="--final-width: 12.494168293871317%; --color: #4F5D95; --delay: 1.31s;"></span>
-          <span class="progress-item" style="--final-width: 3.661390306813977%; --color: #663399; --delay: 1.53s;"></span>
-          <span class="progress-item" style="--final-width: 1.1061599485002669%; --color: #3178c6; --delay: 1.76s;"></span>
-          <span class="progress-item" style="--final-width: 1.095597520250649%; --color: #e34c26; --delay: 1.99s;"></span>
-          <span class="progress-item" style="--final-width: 0.6928742385006825%; --color: #f7523f; --delay: 2.22s;"></span>
-          <span class="progress-item" style="--final-width: 0.31632893507036736%; --color: #c6538c; --delay: 2.44s;"></span>
-          <span class="progress-item" style="--final-width: 0.315241110234028%; --color: #f7931e; --delay: 2.67s;"></span>
-          <span class="progress-item" style="--final-width: 0.0008772780938220849%; --color: #89e051; --delay: 2.90s;"></span>
+          <span class="progress-item" style="--final-width: 59.10586905136209%; --color: #f1e05a; --delay: 0.85s;"></span>
+          <span class="progress-item" style="--final-width: 21.211524398117994%; --color: #41b883; --delay: 1.08s;"></span>
+          <span class="progress-item" style="--final-width: 12.494148564354212%; --color: #4F5D95; --delay: 1.31s;"></span>
+          <span class="progress-item" style="--final-width: 3.6613845251195904%; --color: #663399; --delay: 1.53s;"></span>
+          <span class="progress-item" style="--final-width: 1.1061582017652212%; --color: #3178c6; --delay: 1.76s;"></span>
+          <span class="progress-item" style="--final-width: 1.0955957901947133%; --color: #e34c26; --delay: 1.99s;"></span>
+          <span class="progress-item" style="--final-width: 0.6928731443843061%; --color: #f7523f; --delay: 2.22s;"></span>
+          <span class="progress-item" style="--final-width: 0.3163284355559548%; --color: #c6538c; --delay: 2.44s;"></span>
+          <span class="progress-item" style="--final-width: 0.31524061243739754%; --color: #f7931e; --delay: 2.67s;"></span>
+          <span class="progress-item" style="--final-width: 0.0008772767085139354%; --color: #89e051; --delay: 2.90s;"></span>
           </span>
           </div>
           <ul>
