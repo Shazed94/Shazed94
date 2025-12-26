@@ -177,17 +177,16 @@ div.ellipsis {
       <h2>Languages Used (By File Size)</h2>
       <div>
         <span class="progress">
-          <span class="progress-item" style="--final-width: 34.29268057099553%; --color: #f1e05a; --delay: 0.85s;"></span>
-          <span class="progress-item" style="--final-width: 33.80571762829323%; --color: #e34c26; --delay: 1.05s;"></span>
-          <span class="progress-item" style="--final-width: 19.15214556621798%; --color: #b07219; --delay: 1.26s;"></span>
-          <span class="progress-item" style="--final-width: 6.170107994831125%; --color: #A97BFF; --delay: 1.46s;"></span>
-          <span class="progress-item" style="--final-width: 2.4920009261729157%; --color: #663399; --delay: 1.67s;"></span>
-          <span class="progress-item" style="--final-width: 1.621885845126015%; --color: #f7931e; --delay: 1.88s;"></span>
-          <span class="progress-item" style="--final-width: 1.2203185727910075%; --color: #3572A5; --delay: 2.08s;"></span>
-          <span class="progress-item" style="--final-width: 0.854408054996256%; --color: #1d365d; --delay: 2.28s;"></span>
-          <span class="progress-item" style="--final-width: 0.3185637639811714%; --color: #F05138; --delay: 2.49s;"></span>
-          <span class="progress-item" style="--final-width: 0.06788323902347433%; --color: #5B2063; --delay: 2.69s;"></span>
-          <span class="progress-item" style="--final-width: 0.004287837571296584%; --color: #384d54; --delay: 2.90s;"></span>
+          <span class="progress-item" style="--final-width: 59.10580447541665%; --color: #f1e05a; --delay: 0.85s;"></span>
+          <span class="progress-item" style="--final-width: 21.21155789324824%; --color: #41b883; --delay: 1.08s;"></span>
+          <span class="progress-item" style="--final-width: 12.494168293871317%; --color: #4F5D95; --delay: 1.31s;"></span>
+          <span class="progress-item" style="--final-width: 3.661390306813977%; --color: #663399; --delay: 1.53s;"></span>
+          <span class="progress-item" style="--final-width: 1.1061599485002669%; --color: #3178c6; --delay: 1.76s;"></span>
+          <span class="progress-item" style="--final-width: 1.095597520250649%; --color: #e34c26; --delay: 1.99s;"></span>
+          <span class="progress-item" style="--final-width: 0.6928742385006825%; --color: #f7523f; --delay: 2.22s;"></span>
+          <span class="progress-item" style="--final-width: 0.31632893507036736%; --color: #c6538c; --delay: 2.44s;"></span>
+          <span class="progress-item" style="--final-width: 0.315241110234028%; --color: #f7931e; --delay: 2.67s;"></span>
+          <span class="progress-item" style="--final-width: 0.0008772780938220849%; --color: #89e051; --delay: 2.90s;"></span>
           </span>
           </div>
           <ul>
@@ -197,86 +196,78 @@ div.ellipsis {
                   <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
                 </svg>
                 <span class="lang">JavaScript</span>
-                <span class="percent">34.29%</span>
+                <span class="percent">59.11%</span>
               </li>
-              <li style="--li-delay: 1.05s;">
-                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#e34c26;"
+              <li style="--li-delay: 1.08s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#41b883;"
                   viewBox="0 0 16 16" version="1.1" width="16" height="16">
                   <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
                 </svg>
-                <span class="lang">HTML</span>
-                <span class="percent">33.81%</span>
+                <span class="lang">Vue</span>
+                <span class="percent">21.21%</span>
               </li>
-              <li style="--li-delay: 1.26s;">
-                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#b07219;"
+              <li style="--li-delay: 1.31s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#4F5D95;"
                   viewBox="0 0 16 16" version="1.1" width="16" height="16">
                   <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
                 </svg>
-                <span class="lang">Java</span>
-                <span class="percent">19.15%</span>
+                <span class="lang">PHP</span>
+                <span class="percent">12.49%</span>
               </li>
-              <li style="--li-delay: 1.46s;">
-                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#A97BFF;"
-                  viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
-                </svg>
-                <span class="lang">Kotlin</span>
-                <span class="percent">6.17%</span>
-              </li>
-              <li style="--li-delay: 1.67s;">
+              <li style="--li-delay: 1.53s;">
                 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#663399;"
                   viewBox="0 0 16 16" version="1.1" width="16" height="16">
                   <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
                 </svg>
                 <span class="lang">CSS</span>
-                <span class="percent">2.49%</span>
+                <span class="percent">3.66%</span>
               </li>
-              <li style="--li-delay: 1.88s;">
+              <li style="--li-delay: 1.76s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#3178c6;"
+                  viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+                </svg>
+                <span class="lang">TypeScript</span>
+                <span class="percent">1.11%</span>
+              </li>
+              <li style="--li-delay: 1.99s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#e34c26;"
+                  viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+                </svg>
+                <span class="lang">HTML</span>
+                <span class="percent">1.10%</span>
+              </li>
+              <li style="--li-delay: 2.22s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#f7523f;"
+                  viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+                </svg>
+                <span class="lang">Blade</span>
+                <span class="percent">0.69%</span>
+              </li>
+              <li style="--li-delay: 2.44s;">
+                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#c6538c;"
+                  viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+                </svg>
+                <span class="lang">SCSS</span>
+                <span class="percent">0.32%</span>
+              </li>
+              <li style="--li-delay: 2.67s;">
                 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#f7931e;"
                   viewBox="0 0 16 16" version="1.1" width="16" height="16">
                   <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
                 </svg>
                 <span class="lang">Handlebars</span>
-                <span class="percent">1.62%</span>
-              </li>
-              <li style="--li-delay: 2.08s;">
-                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#3572A5;"
-                  viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
-                </svg>
-                <span class="lang">Python</span>
-                <span class="percent">1.22%</span>
-              </li>
-              <li style="--li-delay: 2.28s;">
-                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#1d365d;"
-                  viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
-                </svg>
-                <span class="lang">Less</span>
-                <span class="percent">0.85%</span>
-              </li>
-              <li style="--li-delay: 2.49s;">
-                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#F05138;"
-                  viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
-                </svg>
-                <span class="lang">Swift</span>
                 <span class="percent">0.32%</span>
               </li>
-              <li style="--li-delay: 2.69s;">
-                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#5B2063;"
-                  viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
-                </svg>
-                <span class="lang">Gherkin</span>
-                <span class="percent">0.07%</span>
-              </li>
               <li style="--li-delay: 2.90s;">
-                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#384d54;"
+                <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#89e051;"
                   viewBox="0 0 16 16" version="1.1" width="16" height="16">
                   <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
                 </svg>
-                <span class="lang">Dockerfile</span>
+                <span class="lang">Shell</span>
                 <span class="percent">0.00%</span>
               </li>
           </ul>
