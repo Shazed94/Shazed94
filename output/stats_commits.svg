@@ -44,45 +44,45 @@
 
     .stat { 
       font: bold 24px sans-serif; 
-      fill: #000000; 
+      fill: #f72585; 
     }
     
     #gh-dark-mode-only:target .stat { 
-      fill: #c9d1d9; 
+      fill: #ff006e; 
     }
     
     .label { 
       font: bold 13px sans-serif; 
-      fill: #000000; 
+      fill: #1a1a2e; 
     }
     
     #gh-dark-mode-only:target .label { 
-      fill: #c9d1d9; 
+      fill: #e0e0e0; 
     }
     
     .date { 
       font: bold 10px sans-serif; 
-      fill: #006AFF; 
+      fill: #ffbe0b; 
     }
     
     #gh-dark-mode-only:target .date { 
-      fill: #006AFF; 
+      fill: #ffd60a; 
     }
     
     .divider { 
-      stroke: #006AFF; 
+      stroke: #f72585; 
       stroke-width: 1; 
     }
     
     #gh-dark-mode-only:target .divider { 
-      stroke: #006AFF; 
+      stroke: #ff006e; 
     }
     
     .footer { 
       font: 9px sans-serif; 
       font-weight: 200; 
       letter-spacing: 0.3px; 
-      fill: #000000; 
+      fill: #586069; 
     }
     
     #gh-dark-mode-only:target .footer { 
@@ -92,7 +92,7 @@
     .ring {
       stroke-width: 7;
       fill: none;
-      stroke: #006AFF;
+      stroke: #f72585;
       stroke-dasharray: 240;
       stroke-dashoffset: 240;
       opacity: 0;
@@ -100,17 +100,17 @@
     }
     
     #gh-dark-mode-only:target .ring { 
-      stroke: #006AFF; 
+      stroke: #ff006e; 
     }
     
     .fire { 
-      fill: #006AFF; 
+      fill: #ffbe0b; 
       opacity: 0; 
       animation: fadein 0.4s linear forwards 0.5s; 
     } 
     
     #gh-dark-mode-only:target .fire { 
-      fill: #006AFF; 
+      fill: #ffd60a; 
     }
     
     .card-outline { animation: fadein 0.7s linear forwards 0.4s; opacity: 0; }
@@ -150,7 +150,7 @@
 
   <!-- Section 1: Total Contributions -->
   <g transform="translate(83, 80)">
-    <text class="stat tc" y="15" text-anchor="middle">1850</text>
+    <text class="stat tc" y="15" text-anchor="middle">1856</text>
     <text class="label tc" y="50" text-anchor="middle">Total Contributions</text>
     <text class="date tc" y="73" text-anchor="middle">May 29, 2021 - Dec 26, 2025</text>
   </g>
@@ -188,6 +188,6 @@
 
   <!-- Footer -->
   <g transform="translate(230, 188)">
-    <text class="footer" text-anchor="middle">Updated last at: Dec 26 2025, 20:06</text>
+    <text class="footer" text-anchor="middle">Updated last at: Dec 26 2025, 21:09</text>
   </g>
 </svg>
