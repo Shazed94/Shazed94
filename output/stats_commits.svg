@@ -18,8 +18,8 @@
     }
 
     #background {
-      fill: rgb(225, 228, 232, 0.1);
-      stroke: rgb(225, 228, 232);
+      fill: rgb(255, 255, 255);
+      stroke: rgb(208, 215, 222);
       stroke-width: 1px;
       rx: 6px; 
       ry: 6px; 
@@ -27,24 +27,24 @@
 
     #gh-dark-mode-only:target #background {
       fill: none;
-      stroke: rgb(225, 228, 232, 0.5);
+      stroke: rgba(225, 228, 232, 0.5);
     }
 
     .card-outline {
-      fill: none; 
-      stroke: rgb(225, 228, 232); 
+      fill: rgb(255, 255, 255); 
+      stroke: rgb(208, 215, 222); 
       stroke-width: 0.7px;
     }
     
     #gh-dark-mode-only:target .card-outline {
       fill: none; 
-      stroke: rgb(225, 228, 232, 0.5); 
+      stroke: rgba(225, 228, 232, 0.5); 
       stroke-width: 0.5px;
     }
 
     .stat { 
       font: bold 24px sans-serif; 
-      fill: #f72585; 
+      fill: #d63384; 
     }
     
     #gh-dark-mode-only:target .stat { 
@@ -53,7 +53,7 @@
     
     .label { 
       font: bold 13px sans-serif; 
-      fill: #1a1a2e; 
+      fill: #24292f; 
     }
     
     #gh-dark-mode-only:target .label { 
@@ -62,7 +62,7 @@
     
     .date { 
       font: bold 10px sans-serif; 
-      fill: #ffbe0b; 
+      fill: #e67700; 
     }
     
     #gh-dark-mode-only:target .date { 
@@ -70,7 +70,7 @@
     }
     
     .divider { 
-      stroke: #f72585; 
+      stroke: #d63384; 
       stroke-width: 1; 
     }
     
@@ -82,7 +82,7 @@
       font: 9px sans-serif; 
       font-weight: 200; 
       letter-spacing: 0.3px; 
-      fill: #586069; 
+      fill: #57606a; 
     }
     
     #gh-dark-mode-only:target .footer { 
@@ -92,7 +92,7 @@
     .ring {
       stroke-width: 7;
       fill: none;
-      stroke: #f72585;
+      stroke: #d63384;
       stroke-dasharray: 240;
       stroke-dashoffset: 240;
       opacity: 0;
@@ -104,7 +104,7 @@
     }
     
     .fire { 
-      fill: #ffbe0b; 
+      fill: #e67700; 
       opacity: 0; 
       animation: fadein 0.4s linear forwards 0.5s; 
     } 
@@ -188,6 +188,6 @@
 
   <!-- Footer -->
   <g transform="translate(230, 188)">
-    <text class="footer" text-anchor="middle">Updated last at: Dec 26 2025, 21:09</text>
+    <text class="footer" text-anchor="middle">Updated last at: Dec 27 2025, 24:38</text>
   </g>
 </svg>
