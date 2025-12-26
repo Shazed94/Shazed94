@@ -4,30 +4,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:7A00FF&height=260&text=Hi%20👋%20I%27m%20Shazed&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=A%20passionate%20developer%20from%20Bangladesh&descAlignY=58&descAlign=70&descItalic=true" />
 </p>
 
-<!-- Statistics: Commit series -->
-<picture>
-  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_commits.svg#gh-dark-mode-only" media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_commits.svg">
-</picture>
-
-<!-- Statistics: Programming languages -->
-<picture>
-  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_langs.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_langs.svg">
-</picture>
-
-<!-- Statistics: General statistics -->
-<picture>
-  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_general.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_general.svg">
-</picture>
-
-<!-- Statistics: Unique repository visitors -->
-<picture>
-  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_visitors.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_visitors.svg">
-</picture>
-
 <!-- <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/800px-Flag_of_Bangladesh.svg.png" width="20" alt="Bangladesh Flag" />
 </p> -->
@@ -65,9 +41,33 @@
 
 ## 📊 GitHub Stats:
 
-![](https://github-readme-stats.vercel.app/api?username=Shazed94&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+<!-- !-- ![](https://github-readme-stats.vercel.app/api?username=Shazed94&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Shazed94&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shazed94&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shazed94&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact) --> -->
+
+<!-- Statistics: Commit series -->
+<picture>
+  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_commits.svg#gh-dark-mode-only" media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_commits.svg">
+</picture>
+
+<!-- Statistics: Programming languages -->
+<picture>
+  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_langs.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_langs.svg">
+</picture>
+
+<!-- Statistics: General statistics -->
+<picture>
+  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_general.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_general.svg">
+</picture>
+
+<!-- Statistics: Unique repository visitors -->
+<picture>
+  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_visitors.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
+  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_visitors.svg">
+</picture>
 
 ---
 
