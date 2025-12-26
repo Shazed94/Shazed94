@@ -33,6 +33,7 @@ jobs:
           EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
           EXCLUDED_REPOS: ${{ secrets.EXCLUDED_REPOS }}
         run: |
+          node src/generators/stats_commits.js
           node src/generators/stats_general.js
           node src/generators/stats_langs.js
           node src/generators/stats_visitors.js 
