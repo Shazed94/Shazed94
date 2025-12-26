@@ -45,28 +45,48 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=Shazed94&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shazed94&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact) --> 
 
-<!-- Statistics: Commit series -->
+<!-- Statistics: Commits -->
 <picture>
-  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_commits.svg#gh-dark-mode-only" media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_commits.svg">
+  <source 
+    srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_commits.svg#gh-dark-mode-only" 
+    media="(prefers-color-scheme: dark)">
+  <source 
+    srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_commits.svg#gh-light-mode-only" 
+    media="(prefers-color-scheme: light)">
+  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_commits.svg#gh-dark-mode-only">
 </picture>
 
 <!-- Statistics: Programming languages -->
 <picture>
-  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_langs.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_langs.svg">
+  <source 
+    srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_langs.svg#gh-dark-mode-only" 
+    media="(prefers-color-scheme: dark)">
+  <source 
+    srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_langs.svg#gh-light-mode-only" 
+    media="(prefers-color-scheme: light)">
+  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_langs.svg#gh-dark-mode-only">
 </picture>
 
 <!-- Statistics: General statistics -->
 <picture>
-  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_general.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_general.svg">
+  <source 
+    srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_general.svg#gh-dark-mode-only" 
+    media="(prefers-color-scheme: dark)">
+  <source 
+    srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_general.svg#gh-light-mode-only" 
+    media="(prefers-color-scheme: light)">
+  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_general.svg#gh-dark-mode-only">
 </picture>
 
 <!-- Statistics: Unique repository visitors -->
 <picture>
-  <source srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_visitors.svg#gh-dark-mode-only"  media="(prefers-color-scheme: dark)">
-  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_visitors.svg">
+  <source 
+    srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_visitors.svg#gh-dark-mode-only" 
+    media="(prefers-color-scheme: dark)">
+  <source 
+    srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_visitors.svg#gh-light-mode-only" 
+    media="(prefers-color-scheme: light)">
+  <img src="https://raw.githubusercontent.com/Shazed94/Shazed94/main/output/stats_visitors.svg#gh-dark-mode-only">
 </picture>
 
 ---
