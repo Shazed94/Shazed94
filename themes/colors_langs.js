@@ -5,9 +5,9 @@ const colors = {
     strokeBorder: "rgb(225, 228, 232)",         // Border/outline color                 // Цвет обводки
     cardFill: "none",                             // Inner fill of the card               // Заливка карточки
     cardStroke: "rgb(225, 228, 232)",           // Card border color                    // Обводка внутри карточки
-    title: "#006AFF",                             // Header color                         // Цвет заголовка
-    lang: "#000000",                              // Language text color                  // Цвет текста языков
-    percent: "rgb(88, 96, 105)",                // Color of percentages                 // Цвет процентов
+    title: "#f72585",                             // Header color                         // Цвет заголовка
+    lang: "#1a1a2e",                              // Language text color                  // Цвет текста языков
+    percent: "#586069",                           // Color of percentages                 // Цвет процентов
     progressBar: "#e1e4e8",                       // Progress bar color                   // Цвет прогресс-бара
     progressItemOutline: "rgb(225, 228, 232)",  // Progress bar element outline color   // Цвет обводки элементов прогресс-бара
   },
@@ -16,9 +16,9 @@ const colors = {
     strokeBorder: "rgb(225, 228, 232, 0.5)",
     cardFill: "none",
     cardStroke: "rgb(225, 228, 232, 0.5)",
-    title: "#006AFF",
-    lang: "#c9d1d9",
-    percent: "#8b949e",
+    title: "#ff006e",
+    lang: "#e0e0e0",
+    percent: "#a8b2d1",
     progressBar: "rgba(110, 118, 129, 0.4)",
     progressItemOutline: "#393f47",
   },
