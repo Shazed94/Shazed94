@@ -1,17 +1,17 @@
 // Colors for light and dark themes (Цвета для светлой и темной темы)
 const colors = {
   light: {
-    fillOverlay: "rgb(225, 228, 232, 0.1)",    // Semi-transparent overlay          // Фон обводки
-    strokeBorder: "rgb(225, 228, 232)",      // Border/outline color              // Цвет обводки
-    cardFill: "none",                          // Inner fill of the card            // Заливка карточки
-    cardStroke: "rgb(225, 228, 232)",        // Card border color                 // Обводка внутри карточки
-    iconGithub: "#f72585",                     // GitHub Icon Color                 // Цвет иконки GitHub
-    titleCards: "#f72585",                     // Card Title Color                  // Цвет заголовка карточки
-    contentIcons: "#ffbe0b",                   // Fill color of statistics icons    // Цвет заливки иконок статистики
-    contentIconOutline: "#ffbe0b",             // Stats Header Icon Outline         // Обводка иконок заголовков статистики
-    headerStatsText: "#FFFFFF",                // Statistics Header Text Color      // Цвет заливки заголовков статистики
-    borderHeaderStats: "#f72585",              // Statistic Header Outlines         // Обводка заголовков статистики
-    statisticsText: "#1a1a2e",                 // Statistics text color             // Цвет текста статистики
+    fillOverlay: "rgb(255, 255, 255)",         // White background for light mode
+    strokeBorder: "rgb(208, 215, 222)",        // Light gray border
+    cardFill: "rgb(255, 255, 255)",            // White card background
+    cardStroke: "rgb(208, 215, 222)",          // Card border color
+    iconGithub: "#d63384",                     // Pink/magenta GitHub Icon (darker for contrast)
+    titleCards: "#d63384",                     // Pink/magenta Card Title (darker for contrast)
+    contentIcons: "#e67700",                   // Orange for statistics icons (darker)
+    contentIconOutline: "#e67700",             // Orange Stats Icon Outline (darker)
+    headerStatsText: "#24292f",                // Dark text for header stats (readable on white)
+    borderHeaderStats: "#d63384",              // Pink/magenta Statistic Header Outlines
+    statisticsText: "#24292f",                 // Dark gray/black for statistics text (readable)
   },
   dark: {
     fillOverlay: "none",

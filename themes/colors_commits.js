@@ -1,23 +1,23 @@
 // Colors for light and dark themes (Цвета для светлой и темной темы)
 const colors = {
   light: {
-    fillOverlay: "rgb(225, 228, 232, 0.1)",  // Semi-transparent overlay   // Фон обводки
-    strokeBorder: "rgb(225, 228, 232)",    // Border/outline color       // Цвет обводки
-    cardFill: "none",                        // Inner fill of the card     // Заливка карточки
-    cardStroke: "rgb(225, 228, 232)",      // Card border color          // Обводка внутри карточки
-    stat: "#f72585",                         // Color of statistics        // Цвет статистики
-    label: "#1a1a2e",                        // Color of labels            // Цвет меток
-    date: "#ffbe0b",                         // Color of dates             // Цвет дат
-    divider: "#f72585",                      // Color of dividers          // Цвет разделителей
-    ring: "#f72585",                         // Ring color                 // Цвет кольца
-    fire: "#ffbe0b",                         // Fire icon color            // Цвет иконки огня
-    footer: "#586069",                       // Footer color               // Цвет футера
+    fillOverlay: "rgb(255, 255, 255)",       // White background for light mode
+    strokeBorder: "rgb(208, 215, 222)",      // Light gray border
+    cardFill: "rgb(255, 255, 255)",          // White card background
+    cardStroke: "rgb(208, 215, 222)",        // Light gray card border
+    stat: "#d63384",                          // Pink/magenta for stats (darker for contrast)
+    label: "#24292f",                         // Dark gray/black for labels (readable)
+    date: "#e67700",                          // Orange for dates (darker for visibility)
+    divider: "#d63384",                       // Pink/magenta divider
+    ring: "#d63384",                          // Pink/magenta ring
+    fire: "#e67700",                          // Orange fire icon
+    footer: "#57606a",                        // Gray footer text
   },
   dark: {
     fillOverlay: "none",
-    strokeBorder: "rgb(225, 228, 232, 0.5)",
+    strokeBorder: "rgba(225, 228, 232, 0.5)",
     cardFill: "none",
-    cardStroke: "rgb(225, 228, 232, 0.5)",
+    cardStroke: "rgba(225, 228, 232, 0.5)",
     stat: "#ff006e",
     label: "#e0e0e0",
     date: "#ffd60a",
@@ -27,7 +27,7 @@ const colors = {
     footer: "#c9d1d9",
   },
   meta: {
-    timeZone: "Europe/Moscow",               // Time zone in the card (Часовой пояс в карточке)
+    timeZone: "Asia/Dhaka",                  // Bangladesh timezone (UTC+6)
   },
 };
 
