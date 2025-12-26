@@ -41,22 +41,22 @@
     }
 
     .github-icon path {
-      fill: rgb(88, 96, 105);
+      fill: #f72585;
     }
     
     #gh-dark-mode-only:target .github-icon path {
-      fill: #c9d1d9;
+      fill: #ff006e;
     }
     
     .title-cards {
       font-size: 16px; 
       font-weight: bold;
       letter-spacing: 0.1px; 
-      fill: #006AFF;  
+      fill: #f72585;  
     }
     
     #gh-dark-mode-only:target .title-cards {
-      fill: #006AFF;
+      fill: #ff006e;
     }
 
     .content-icons {
@@ -66,14 +66,14 @@
     }
     
     .content-icons path {
-      fill: rgb(88, 96, 105);
-      stroke: rgb(88, 96, 105);
+      fill: #ffbe0b;
+      stroke: #ffbe0b;
       stroke-width: 3;  
     }
     
     #gh-dark-mode-only:target .content-icons path {
-      fill: #8b949e;
-      stroke: #FFFFFF; 
+      fill: #ffd60a;
+      stroke: #ffd60a; 
     }
     
     th {
@@ -82,20 +82,20 @@
       letter-spacing: 1px;
       color: #FFFFFF;
       text-shadow: 
-        0.5px 0.5px 0px rgb(88, 96, 105), 
-        -0.5px -0.5px 0px rgb(88, 96, 105),
-        0.5px -0.5px 0px rgb(88, 96, 105),
-        -0.5px 0.5px 0px rgb(88, 96, 105);
+        0.5px 0.5px 0px #f72585, 
+        -0.5px -0.5px 0px #f72585,
+        0.5px -0.5px 0px #f72585,
+        -0.5px 0.5px 0px #f72585;
       padding-bottom: 18px;
     }
     
     #gh-dark-mode-only:target th {
-      color: #000000;
+      color: #1a1a2e;
       text-shadow: 
-        0.7px 0.7px 0px #c9d1d9,
-        -0.7px -0.7px 0px #c9d1d9,
-        0.7px -0.7px 0px #c9d1d9,
-        -0.7px 0.7px 0px #c9d1d9;
+        0.7px 0.7px 0px #ff006e,
+        -0.7px -0.7px 0px #ff006e,
+        0.7px -0.7px 0px #ff006e,
+        -0.7px 0.7px 0px #ff006e;
     }
     
     th, td {
@@ -110,14 +110,14 @@
 
     .repo-name, .unique-count, .date-range {
       font-size: 12px;
-      color: rgb(88, 96, 105); 
+      color: #1a1a2e; 
       letter-spacing: 0.5px;
     }
    
     #gh-dark-mode-only:target .repo-name,
     #gh-dark-mode-only:target .unique-count,
     #gh-dark-mode-only:target .date-range {
-      color: #c9d1d9; 
+      color: #e0e0e0; 
     }
 
     @keyframes fadein {
@@ -224,7 +224,7 @@
             </div>
           </td>
           <td class="unique-count" style="width: 130px; text-align: center;">1</td>
-          <td class="date-range" style="width: 120px; text-align: center;">20.12 - 25.12</td>
+          <td class="date-range" style="width: 120px; text-align: center;">20.12 - 26.12</td>
         </tr>
         </tbody>
       </table>
