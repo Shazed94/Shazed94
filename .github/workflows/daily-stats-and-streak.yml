@@ -1,0 +1,65 @@
+name: Daily GitHub Stats & Streak
+
+on:
+  schedule:
+    # Runs daily at 00:10 Asia/Dhaka (18:10 UTC)
+    - cron: "10 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats-and-streak:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate GitHub stats SVG
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
+          EXCLUDED_REPOS: ${{ secrets.EXCLUDED_REPOS }}
+        run: |
+          node src/generators/stats_commits.js
+          node src/generators/stats_general.js
+          node src/generators/stats_langs.js
+          node src/generators/stats_visitors.js
+
+      # ✅ AUTHOR IDENTITY (COUNTS FOR STREAK)
+      - name: Setup Git identity
+        run: |
+          git config --global user.name "Shazed94"
+          git config --global user.email "85030852+Shazed94@users.noreply.github.com"
+
+      # 🛡️ GUARANTEED DAILY CHANGE
+      - name: Update streak file
+        run: |
+          echo "Last automated commit: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" > streak.txt
+
+      - name: Stage files
+        run: |
+          git add output/*.svg streak.txt
+
+      - name: Commit and push (as Shazed94)
+        run: |
+          if git diff --cached --quiet; then
+            echo "No changes detected — forcing streak commit."
+            git commit --allow-empty -m "chore: daily streak keep-alive"
+          else
+            git commit -m "chore: update GitHub stats & streak"
+          fi
+
+          git push https://Shazed94:${{ secrets.ACCESS_TOKEN }}@github.com/Shazed94/Shazed94.git main
