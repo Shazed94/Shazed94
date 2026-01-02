@@ -148,7 +148,6 @@ function calculateStreaksAndTotals(allContributionDays) {
   }
 
   let isCurrentStreakActive = lastContributionDate === today;
-
   return {
     currentStreak: isCurrentStreakActive ? currentStreak : 0,
     currentStreakStart: isCurrentStreakActive ? currentStreakStart : null,
