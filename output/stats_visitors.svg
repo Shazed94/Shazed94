@@ -208,15 +208,6 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="repo-row" style="height: 100px; animation-delay: 2.9s;">
-          <td class="repo-name" style="width: 186px; text-align: center;">
-            <div style="display: flex; align-items: center; justify-content: center;">
-              <span style="margin-left: 10px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">prep-excellence</span>
-            </div>
-          </td>
-          <td class="unique-count" style="width: 130px; text-align: center;">1</td>
-          <td class="date-range" style="width: 120px; text-align: center;">04.02 - 17.02</td>
-        </tr>
         </tbody>
       </table>
     </foreignObject>
