@@ -17,15 +17,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: "22"
+          cache: 'npm'
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci --prefer-offline --no-audit --progress=false
 
       - name: Generate GitHub stats SVG
         env:
@@ -33,10 +35,12 @@ jobs:
           EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
           EXCLUDED_REPOS: ${{ secrets.EXCLUDED_REPOS }}
         run: |
-          node src/generators/stats_commits.js
-          node src/generators/stats_general.js
-          node src/generators/stats_langs.js
-          node src/generators/stats_visitors.js
+          # run generators in parallel to shorten total runtime
+          node src/generators/stats_commits.js &
+          node src/generators/stats_general.js &
+          node src/generators/stats_langs.js &
+          node src/generators/stats_visitors.js &
+          wait
 
       # ✅ AUTHOR IDENTITY (COUNTS FOR STREAK)
       - name: Setup Git identity
