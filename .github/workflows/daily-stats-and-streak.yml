@@ -6,6 +6,10 @@ on:
     - cron: "10 18 * * *"
   workflow_dispatch:
 
+# ✅ future-proof for Node 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: write
 
@@ -17,54 +21,54 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0  # needed for proper commit history
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: 'npm'
-          cache-dependency-path: package.json
+          cache: "npm"
 
+      # ✅ safer install (no lock file required)
       - name: Install dependencies
-        run: npm ci --prefer-offline --no-audit --progress=false
+        run: npm install --no-audit --progress=false
 
+      # ⚡ run all generators in parallel
       - name: Generate GitHub stats SVG
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
           EXCLUDED_REPOS: ${{ secrets.EXCLUDED_REPOS }}
         run: |
-          # run generators in parallel to shorten total runtime
           node src/generators/stats_commits.js &
           node src/generators/stats_general.js &
           node src/generators/stats_langs.js &
           node src/generators/stats_visitors.js &
           wait
 
-      # ✅ AUTHOR IDENTITY (COUNTS FOR STREAK)
+      # ✅ Setup Git identity
       - name: Setup Git identity
         run: |
-         git config --global user.useConfigOnly true
-         git config --global user.name "Shazed94"
-         git config --global user.email "85030852+Shazed94@users.noreply.github.com"
+          git config user.name "Shazed94"
+          git config user.email "85030852+Shazed94@users.noreply.github.com"
 
-      # 🛡️ GUARANTEED DAILY CHANGE
+      # 🛡️ always create a change (streak safety)
       - name: Update streak file
         run: |
           echo "Last automated commit: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" > streak.txt
 
-      - name: Stage files
+      # ✅ Commit only if needed
+      - name: Commit and push
+        env:
+          TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
           git add output/*.svg streak.txt
 
-      - name: Commit and push (as Shazed94)
-        run: |
           if git diff --cached --quiet; then
-            echo "No changes detected — forcing streak commit."
-            git commit --allow-empty -m "chore: daily streak keep-alive"
+            echo "No changes detected — creating empty commit for streak"
+            git commit --allow-empty -m "chore: keep streak alive"
           else
-            git commit -m "chore: update GitHub stats & streak"
+            git commit -m "chore: update GitHub stats"
           fi
 
-          git push https://Shazed94:${{ secrets.ACCESS_TOKEN }}@github.com/Shazed94/Shazed94.git main
+          git push https://Shazed94:${TOKEN}@github.com/Shazed94/Shazed94.git main
