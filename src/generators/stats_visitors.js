@@ -16,6 +16,11 @@ if (!token) {
   process.exit(1);
 }
 
+if (!username) {
+  console.error("Error: GITHUB_ACTOR is not defined in the environment variables.");
+  process.exit(1);
+}
+
 class GitHubQueries {
   constructor(token) {
     this.token = token;
@@ -23,6 +28,8 @@ class GitHubQueries {
 
   async queryRest(endpoint) {
     let response;
+    let retries = 0;
+    const maxRetries = 10;
     do {
       response = await fetch(`${REST_API}${endpoint}`, {
         headers: {
@@ -32,6 +39,10 @@ class GitHubQueries {
       });
 
       if (response.status === 202) {
+        retries++;
+        if (retries >= maxRetries) {
+          throw new Error("GitHub API still processing after max retries.");
+        }
         await new Promise((resolve) => setTimeout(resolve, 1000));
       } else if (!response.ok) {
         throw new Error("Failed to get data from GitHub REST API.");
