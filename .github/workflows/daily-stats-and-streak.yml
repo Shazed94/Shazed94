@@ -37,6 +37,7 @@ jobs:
       - name: Generate GitHub stats SVG
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
           EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
           EXCLUDED_REPOS: ${{ secrets.EXCLUDED_REPOS }}
         run: |

@@ -1,9 +1,11 @@
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
 import Handlebars from "handlebars";
 import colors from "../../themes/colors_commits.js";
+import { calculateStreaks } from "./streaks.js";
 
-const username = process.env.GITHUB_ACTOR;
+const username = process.env.GITHUB_USERNAME || process.env.GITHUB_ACTOR;
 const token = process.env.ACCESS_TOKEN;
 const GRAPHQL_API = "https://api.github.com/graphql";
 
@@ -81,66 +83,13 @@ async function fetchContributions(fromDate, toDate) {
   return data.user.contributionsCollection.contributionCalendar;
 }
 
-// ✅ streak calculation (unchanged logic, cleaned)
-function calculateStreaks(days) {
-  days.sort((a, b) => new Date(a.date) - new Date(b.date));
-
-  let longest = 0;
-  let current = 0;
-  let lastDate = null;
-
-  let longestStart = null;
-  let longestEnd = null;
-  let currentStart = null;
-
-  const today = new Date().toISOString().split("T")[0];
-
-  for (const { date, contributionCount } of days) {
-    if (date > today) continue;
-
-    if (contributionCount > 0) {
-      if (!lastDate) {
-        current = 1;
-        currentStart = date;
-      } else {
-        const diff =
-          (new Date(date) - new Date(lastDate)) / (1000 * 60 * 60 * 24);
-
-        if (diff === 1) {
-          current++;
-        } else {
-          current = 1;
-          currentStart = date;
-        }
-      }
-
-      if (current > longest) {
-        longest = current;
-        longestStart = currentStart;
-        longestEnd = date;
-      }
-
-      lastDate = date;
-    }
-  }
-
-  const isActive = lastDate === today;
-
-  return {
-    currentStreak: isActive ? current : 0,
-    currentStreakStart: isActive ? currentStart : null,
-    longestStreak: longest,
-    longestStreakStart: longestStart,
-    longestStreakEnd: longestEnd,
-  };
-}
-
 function formatDate(date) {
   if (!date) return "N/A";
   return new Date(date).toLocaleDateString("en", {
     year: "numeric",
     month: "short",
     day: "numeric",
+    timeZone: "UTC",
   });
 }
 
@@ -161,9 +110,10 @@ async function generateSVG() {
       currentStreak,
       longestStreak,
       currentStreakStart,
+      currentStreakEnd,
       longestStreakStart,
       longestStreakEnd,
-    } = calculateStreaks(allDays);
+    } = calculateStreaks(allDays, now);
 
     const commitDateRange = `${formatDate(fromDate)} - ${formatDate(now)}`;
 
@@ -176,7 +126,7 @@ async function generateSVG() {
 
     const currentStreakDateRange =
       currentStreak > 0
-        ? `${formatDate(currentStreakStart)} - ${formatDate(now)}`
+        ? `${formatDate(currentStreakStart)} - ${formatDate(currentStreakEnd)}`
         : "N/A";
 
     const timeZone = colors.meta?.timeZone || "UTC";
@@ -210,7 +160,7 @@ async function generateSVG() {
       lastUpdate,
     };
 
-    const __dirname = path.dirname(new URL(import.meta.url).pathname);
+    const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
     const templatePath = path.resolve(
       __dirname,

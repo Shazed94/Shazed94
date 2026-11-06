@@ -3,7 +3,7 @@ import path from "path";
 import Handlebars from "handlebars";
 import colors from "../../themes/colors_langs.js";
 
-const username = process.env.GITHUB_ACTOR;
+const username = process.env.GITHUB_USERNAME || process.env.GITHUB_ACTOR;
 const token = process.env.ACCESS_TOKEN;
 const exclusionThreshold = 0.9;
 

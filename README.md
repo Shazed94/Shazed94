@@ -41,6 +41,8 @@
 
 ## 📊 GitHub Stats:
 
+The contribution card covers the past year and updates daily before the automated commit. A streak remains active through the current UTC day if the last contribution was yesterday; GitHub may take time to show new contributions.
+
 <!-- !-- ![](https://github-readme-stats.vercel.app/api?username=Shazed94&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=Shazed94&theme=radical&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Shazed94&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact) --> 
@@ -93,12 +95,16 @@
 
 ## 🐍 Contribution Snake
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shazed94/Shazed94/output/github-contribution-grid-snake.svg">
+    <img alt="Shazed94's contribution snake" src="https://raw.githubusercontent.com/Shazed94/Shazed94/output/github-contribution-grid-snake.svg">
+  </picture>
 </p>
 
 
 ---
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" height="400px" style="object-fit: cover"/>
+<!-- <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" height="400px" style="object-fit: cover"/> -->
 
 <p align="center">
   💙 Thanks for visiting my profile — let’s build something awesome!
