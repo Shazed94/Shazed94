@@ -11,17 +11,22 @@ if (!token) {
   process.exit(1);
 }
 
+if (!username) {
+  console.error("Error: GITHUB_ACTOR is not defined in the environment variables.");
+  process.exit(1);
+}
+
 const REST_API = "https://api.github.com";
 
-// ✅ fetch with timeout
-async function fetchWithTimeout(url) {
+async function fetchWithTimeout(endpoint) {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 8000);
+  const timeout = setTimeout(() => controller.abort(), 10000);
 
   try {
-    const res = await fetch(url, {
+    const res = await fetch(`${REST_API}${endpoint}`, {
       headers: {
         Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
       },
       signal: controller.signal,
     });
@@ -38,7 +43,7 @@ async function fetchWithTimeout(url) {
 // ✅ LIMIT repos (CRITICAL)
 async function getRepos() {
   const res = await fetchWithTimeout(
-    `${REST_API}/users/${username}/repos?per_page=20`
+    `/users/${username}/repos?per_page=20`
   );
 
   return res ? res.map((r) => r.name) : [];
@@ -50,7 +55,7 @@ async function getRepoViews(repos) {
 
   for (const repo of repos.slice(0, 5)) {
     const data = await fetchWithTimeout(
-      `${REST_API}/repos/${username}/${repo}/traffic/views`
+      `/repos/${username}/${repo}/traffic/views`
     );
 
     if (data && data.uniques) {

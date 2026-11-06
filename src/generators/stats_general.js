@@ -11,9 +11,13 @@ if (!token) {
   process.exit(1);
 }
 
+if (!username) {
+  console.error("Error: GITHUB_ACTOR is not defined in the environment variables.");
+  process.exit(1);
+}
+
 const GRAPHQL_API = "https://api.github.com/graphql";
 
-// ✅ fetch with timeout
 async function fetchFromGitHub(query) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10000);

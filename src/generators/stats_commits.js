@@ -14,7 +14,11 @@ if (!token) {
   process.exit(1);
 }
 
-// ✅ fetch with timeout (prevents hanging)
+if (!username) {
+  console.error("Error: GITHUB_ACTOR is not defined in the environment variables.");
+  process.exit(1);
+}
+
 async function fetchFromGitHub(query, variables = {}) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10000); // 10s
