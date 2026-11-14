@@ -19,13 +19,11 @@
       media="(prefers-color-scheme: light)"
       srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=5000&pause=800&color=2563EB&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React+%7C+TypeScript+%7C+Next.js;Building+Modern+Web+Applications;Always+Learning+New+Things"
     />
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=2563EB&center=true&vCenter=true&width=750&lines=Full+Stack+Developer;Building+Scalable+Web+Applications;React.js+%7C+Next.js+%7C+TypeScript;Node.js+%7C+Express.js+%7C+MongoDB+%7C+PostgreSQL;Turning+Ideas+into+Real-World+Solutions"
+    alt="Full Stack Developer | React | Next.js | Node.js"
+  />
   </picture>
-
-   
-<img
-  src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=2563EB&center=true&vCenter=true&width=750&lines=Full+Stack+Developer;Building+Scalable+Web+Applications;React.js+%7C+Next.js+%7C+TypeScript;Node.js+%7C+Express.js+%7C+MongoDB+%7C+PostgreSQL;Turning+Ideas+into+Real-World+Solutions"
-  alt="Full Stack Developer | React | Next.js | Node.js"
-/>
 
 </p>
 
@@ -123,4 +121,3 @@ The contribution card covers the past year and updates daily before the automate
 ---
 
 <!-- ===================== FOOTER ===================== -->
-
